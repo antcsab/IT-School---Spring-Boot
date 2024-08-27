@@ -9,5 +9,5 @@ public interface UserService {
 
     UserDTO createUser(UserDTO userDTO);
 
-    List<User> getUsers();
+    List<UserDTO> getUsers();
 }
