@@ -1,12 +1,13 @@
 package com.itschool.project.services;
 
-import com.itschool.project.models.User;
+import com.itschool.project.models.dtos.UserDTO;
+import com.itschool.project.models.entities.User;
 
 import java.util.List;
 
 public interface UserService {
 
-    User createUser(User user);
+    UserDTO createUser(UserDTO userDTO);
 
     List<User> getUsers();
 }
